@@ -71,3 +71,16 @@ Kalau masih belum jalan setelah reboot, kirim isi log dengan:
 
 journalctl -u leaderboard.service
 Perlu bantuan auto-start juga untuk web server di port 9000?
+
+
+
+#WARNING!
+
+
+error abor glx
+
+sudo apt install mesa-utils
+
+export=QT_OPENGL=software
+
+export=QT_XCB_GL_INTEGRATION=none
